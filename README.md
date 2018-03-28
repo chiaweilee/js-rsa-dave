@@ -1,5 +1,30 @@
-# js-rsa-dave
-A fork of RSA, a suite of routines for performing RSA public-key computations in JavaScript by Dave Shapiro
+# RSA Js-rsa-dave 2018-03-28 fork ver. 0.0.2
+- A fork of RSA
+- A suite of routines for performing RSA public-key computations in JavaScript
+- by Dave Shapiro
 
-## Import
-> import RSA from 'rsa.js'
+- Fork and modify by +v
+
+## Doc
+http://www.ohdave.com/rsa/
+
+## Useage
+> rsa.window.js
+```javascript
+// in entry
+import myRSA from './rsa.window.js'
+myRSA()
+```
+```javascript
+// in components
+window.RSAUtils.encryptedString(...)
+window.RSAUtils.getKeyPair(...)
+```
+
+> rsa.node.js
+```javascript
+// in components
+import RSA from '../../plugin/rsa'
+RSA.encryptedString(...)
+RSA.getKeyPair(...)
+```
