@@ -9,7 +9,15 @@
 http://www.ohdave.com/rsa/
 
 ## Useage
-> rsa.window.js
+> rsa.node.js (NEW, suggest)
+```javascript
+// in components
+import RSA from '../../plugin/rsa'
+RSA.encryptedString(...)
+RSA.getKeyPair(...)
+```
+
+> rsa.window.js (OLD)
 ```javascript
 // in entry
 import myRSA from './rsa.window.js'
@@ -19,12 +27,4 @@ myRSA()
 // in components
 window.RSAUtils.encryptedString(...)
 window.RSAUtils.getKeyPair(...)
-```
-
-> rsa.node.js
-```javascript
-// in components
-import RSA from '../../plugin/rsa'
-RSA.encryptedString(...)
-RSA.getKeyPair(...)
 ```
