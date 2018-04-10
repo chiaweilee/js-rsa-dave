@@ -5,6 +5,10 @@
 
 - Fork and modify by +v
 
+## Install
+```cmd
+npm install js-rsa-dave --save
+```
 ## Doc
 http://www.ohdave.com/rsa/
 
@@ -12,7 +16,7 @@ http://www.ohdave.com/rsa/
 > rsa.node.js (NEW, suggest)
 ```javascript
 // in components
-import RSA from '../../plugin/rsa'
+import RSA from 'js-rsa-dave'
 RSA.encryptedString(...)
 RSA.getKeyPair(...)
 ```
@@ -20,7 +24,7 @@ RSA.getKeyPair(...)
 > rsa.window.js (OLD)
 ```javascript
 // in entry
-import myRSA from './rsa.window.js'
+import myRSA from 'js-rsa-dave/rsa.window.js'
 myRSA()
 ```
 ```javascript
