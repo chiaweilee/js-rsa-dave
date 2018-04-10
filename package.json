@@ -1,0 +1,19 @@
+{
+  "name": "js-rsa-dave",
+  "version": "0.0.2",
+  "description": "- A fork of RSA - A suite of routines for performing RSA public-key computations in JavaScript - by Dave Shapiro",
+  "main": "rsa.node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiaweilee/js-rsa-dave.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiaweilee/js-rsa-dave/issues"
+  },
+  "homepage": "https://github.com/chiaweilee/js-rsa-dave#readme"
+}
