@@ -21,6 +21,11 @@ RSA.encryptedString(...)
 RSA.getKeyPair(...)
 ```
 
+```
+RSA.encryptedString(RSA.getKeyPair(rsaTokenPublicExponent, '', rsaTokenPublicModulus), userInputPassword)
+// return encrypted password
+```
+
 > rsa.window.js (OLD)
 ```javascript
 // in entry
