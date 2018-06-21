@@ -1,4 +1,4 @@
-# RSA Js-rsa-dave 2018-03-28 fork ver. 0.0.2
+# RSA Js-rsa-dave
 - A fork of RSA
 - A suite of routines for performing RSA public-key computations in JavaScript
 - by Dave Shapiro
@@ -9,10 +9,10 @@
 ```cmd
 npm install js-rsa-dave --save
 ```
-## Doc
+## Dave's Doc
 http://www.ohdave.com/rsa/
 
-## Useage
+## Usage
 > rsa.node.js (NEW, suggest)
 ```javascript
 // in components
