@@ -3,6 +3,10 @@
 - A suite of routines for performing RSA public-key computations in JavaScript
 - by Dave Shapiro
 
+<a href="https://npmcharts.com/compare/js-rsa-dave?minimal=true"><img src="https://img.shields.io/npm/dm/js-rsa-dave.svg" alt="Downloads"></a>
+<a href="https://www.npmjs.com/package/js-rsa-dave"><img src="https://img.shields.io/npm/v/js-rsa-dave.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/js-rsa-dave"><img src="https://img.shields.io/npm/l/js-rsa-dave.svg" alt="License"></a>
+
 - 🔧 Fork and modify by +v
 
 ## Install
